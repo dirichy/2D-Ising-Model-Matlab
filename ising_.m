@@ -1,8 +1,8 @@
 % Initialize all parameters
-size = 8;
+size = 16;
 J = 1;
 H = 0;
-steps = 100;
+steps = 1000;
 ist0 = 0;
 
 g = generategrid(size , ist0);

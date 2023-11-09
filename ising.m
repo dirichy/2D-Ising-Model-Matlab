@@ -28,7 +28,7 @@ for w = 1 : 30
         mb(times * (w-1) + u , 2) = mt;
         
         c(u) = et;
-        mc(u) = mt;
+        mc(u) = abs(mt);
     end
     a(w , 1) = T;
     a(w , 2) = sum(c) / times;
